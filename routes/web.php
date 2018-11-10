@@ -13,5 +13,9 @@
 
 Route::get('/', function () {
 
+
+
+    $var = "asd";
+
     return view('welcome');
 });
